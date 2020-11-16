@@ -1,0 +1,213 @@
+/* css reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* css reset */
+
+img{
+	display: block;
+	margin: 0 auto;
+}
+
+.banner{
+    background-image: url(../img/banner.png);
+    height: 958px;
+    background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.bannerInner{
+    color: white;
+    margin: 0 auto;
+	font: italic normal bold 24px Roboto;
+}
+
+.bannerTitle{
+	font: italic normal 900 80px/94px Roboto;
+	margin-bottom: 32px;
+}
+
+.bannerIcon{
+	display: flex;
+	justify-content: space-between;
+}
+
+.bannerIcon img:hover{
+	transform: scale(1.2);
+	opacity: 0.7;
+}
+
+.about{
+	text-align: center;
+	font: italic normal bold 24px/42px Roboto;
+}
+
+.about li:before{
+	content: "";
+	display: inline-block;
+	width: 22px;
+	height: 22px;
+	background-color: #891818;
+	border-radius: 50%;
+	margin-right: 16px;
+}
+
+.title {
+	font: italic normal bold 64px/75px Roboto;
+	padding-top: 64px;
+}
+
+.border {
+	border-bottom: 1px solid #000000;
+	width: 384px;
+}
+
+.brand{
+	text-align: center;
+	background: #000;
+	color: #ffffff;
+	font: italic normal bold 24px/42px Roboto;
+}
+
+.brandImg{
+	width: 1200px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 auto;
+	padding-bottom: 160px;
+}
+
+.work{
+	text-align: center;
+	font: italic normal bold 24px/42px Roboto;
+	margin: 0 auto;
+}
+
+.workList{
+	width: 1200px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.workList li{
+	margin-bottom: 56px;
+}
+
+.workList p{
+	font: italic normal bold 20px/42px Roboto;
+	margin-top: 16px;
+}
+
+.contact{
+	text-align: center;
+	background: #000;
+	color: #ffffff;
+	font: italic normal 24px/36px Roboto;
+	padding-bottom: 80px;
+}
+
+.contact a{
+	color: #ffffff;
+	font: italic normal 24px/36px Roboto;
+	text-decoration: none;
+}
+
+.contact a:hover{
+	color: gray;
+}
+
+.textCh{
+	font: italic normal bold 20px/30px Roboto;
+}
+
+.lh-42{
+	line-height: 42px;
+}
+
+.lh-36{
+	line-height: 36px;
+}
+
+.mr-24{
+	margin-right: 24px;
+}
+
+.mb-16{
+	margin-bottom: 16px;
+}
+
+.mb-24{
+	margin-bottom: 24px;
+}
+
+.mb-40{
+	margin-bottom: 40px;
+}
+
+.mb-48{
+	margin-bottom: 48px;
+}
+
+.mb-56{
+	margin-bottom: 56px;
+}
+
+.mt-32{
+	margin-top: 32px;
+}
+
+.mt-40{
+	margin-top: 40px;
+}
+
+.mt-68{
+	margin-top: 68px;
+}
