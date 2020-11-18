@@ -50,6 +50,11 @@ img{
 	margin: 0 auto;
 }
 
+.body{
+	font-family: 'Roboto', 'Noto Sans' ,sans-serif;
+	font-style: italic;
+}
+
 .banner{
     background-image: url(./img/banner.png);
     height: 958px;
@@ -64,12 +69,21 @@ img{
 .bannerInner{
     color: white;
     margin: 0 auto;
-	font: italic normal bold 24px Roboto;
+	font-size: 24px;
+	font-weight: bold;
+	font-style: italic;
 }
 
 .bannerTitle{
-	font: italic normal 900 80px/94px Roboto;
+	font-size: 80px;
+	font-weight: 900;
+	line-height: 94px;
 	margin-bottom: 32px;
+}
+
+.banner span{
+	line-height: 42px;
+	font-size: 24px;
 }
 
 .bannerIcon{
@@ -84,10 +98,13 @@ img{
 
 .about{
 	text-align: center;
-	font: italic normal bold 24px/42px Roboto;
+	font-size: 24px;
+	line-height: 42px;
+	font-weight: bold;
+	font-style: italic;
 }
 
-.about li:before{
+.position li::before{
 	content: "";
 	display: inline-block;
 	width: 22px;
@@ -98,7 +115,9 @@ img{
 }
 
 .title {
-	font: italic normal bold 64px/75px Roboto;
+	font-size: 64px;
+	line-height: 75px;
+	font-weight: bold;
 	padding-top: 64px;
 }
 
@@ -111,7 +130,10 @@ img{
 	text-align: center;
 	background: #000;
 	color: #ffffff;
-	font: italic normal bold 24px/42px Roboto;
+	font-size: 24px;
+	line-height: 42px;
+	font-weight: bold;
+	font-style: italic;
 }
 
 .brandImg{
@@ -125,7 +147,10 @@ img{
 
 .work{
 	text-align: center;
-	font: italic normal bold 24px/42px Roboto;
+	font-size: 24px;
+	line-height: 42px;
+	font-weight: bold;
+	font-style: italic;
 	margin: 0 auto;
 }
 
@@ -142,7 +167,9 @@ img{
 }
 
 .workList p{
-	font: italic normal bold 20px/42px Roboto;
+	font-size: 20px;
+	line-height: 42px;
+	font-weight: bold;
 	margin-top: 16px;
 }
 
@@ -150,13 +177,16 @@ img{
 	text-align: center;
 	background: #000;
 	color: #ffffff;
-	font: italic normal 24px/36px Roboto;
+	font-size: 24px;
+	line-height: 36px;
+	font-style: italic;
 	padding-bottom: 80px;
 }
 
 .contact a{
 	color: #ffffff;
-	font: italic normal 24px/36px Roboto;
+	font-size: 24px;
+	line-height: 36px;
 	text-decoration: none;
 }
 
@@ -165,7 +195,9 @@ img{
 }
 
 .textCh{
-	font: italic normal bold 20px/30px Roboto;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: bold;
 }
 
 .lh-42{
